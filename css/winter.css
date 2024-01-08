@@ -125,9 +125,4 @@ section .set div:nth-child(8)
     }
 }
 
-.set2
-{
-    transform: scale(2) rotateY(180deg);
-    filter:blur(2px);
-    
-}
+
