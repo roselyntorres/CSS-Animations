@@ -168,7 +168,7 @@ body{
    margin-left:40px;
 }
 
-.navbar a :before{
+.navbar a::before{
     content:'';
     position: absolute;
     top:100% ;
@@ -177,4 +177,8 @@ body{
     height:2px;
     background: #5500fd;
 transition:.3s;
+}
+
+.navbar a:hover::before{
+    width: 100%;
 }

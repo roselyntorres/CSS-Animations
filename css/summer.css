@@ -185,6 +185,6 @@ body{
     background: #5500fd;
 transition:.3s;
 }
-.navbar a:hover: :before{
-    
+.navbar a:hover::before{
+    width: 100%;
 }
